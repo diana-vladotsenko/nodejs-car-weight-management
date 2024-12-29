@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+<meta charset = "utf-8">
+<title>Viljavedu auto eksami ülesanne</title>
+</head>
+s
+<body>
+<h1>Auto viljavedu</h1>
+<ul>
+	<li><a href="/">Avalehele</a></li>
+	<li><a href="/autovaljumine" blok>Auto väljumine</a></li>
+</ul>
+<h2>Sisesta auto kaalu sisenemisel:</h2>
+<form method="POST">
+<label for="autoTitle">Auto registrinumber:</label>
+    <input type="text" id="registerNumberInput" name="registerNumberInput" placeholder="Registrinumber..">
+	<br>
+	<label for="autoTitle">Auto kaal sisenemisel:</label>
+	<input type="text" id="weightInInput" name="weightInInput" placeholder="Sisenemiskaal..">
+	<br>
+    <button type="submit" name="autoSubmit">Lisa</button>
+<div>
+	<p> <%= notice %></p>
+</div>
+
+</body>
+</html>

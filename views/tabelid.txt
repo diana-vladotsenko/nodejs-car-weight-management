@@ -1,0 +1,1 @@
+CREATE TABLE `if24_dianvlad`.`vp2_2024_viljavedu` (`id` INT(3) NOT NULL AUTO_INCREMENT , `register_number` VARCHAR(6) NOT NULL , `wait_in` INT(5) NOT NULL , `wait_out` INT(5) NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
